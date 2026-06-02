@@ -1,0 +1,36 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 2.19.0
+model_size_bytes: 11365926
+model_uuid: 16e8d079010a4922893ad20e15bf9317
+run_id: 1033b89dbcbf4cf78a7196e09b15030f
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Processor_Speed", "required": true}, {"type":
+    "double", "name": "RAM_Size", "required": true}, {"type": "double", "name": "Storage_Capacity",
+    "required": true}, {"type": "double", "name": "Screen_Size", "required": true},
+    {"type": "double", "name": "Weight", "required": true}, {"type": "double", "name":
+    "Brand_Acer", "required": true}, {"type": "double", "name": "Brand_Asus", "required":
+    true}, {"type": "double", "name": "Brand_Dell", "required": true}, {"type": "double",
+    "name": "Brand_HP", "required": true}, {"type": "double", "name": "Brand_Lenovo",
+    "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+utc_time_created: '2026-06-02 09:03:11.132877'

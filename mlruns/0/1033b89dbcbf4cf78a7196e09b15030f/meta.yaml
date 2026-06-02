@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/1033b89dbcbf4cf78a7196e09b15030f/artifacts
+end_time: 1780390995337
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1033b89dbcbf4cf78a7196e09b15030f
+run_name: silent-mouse-665
+run_uuid: 1033b89dbcbf4cf78a7196e09b15030f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780390981255
+status: 3
+tags: []
+user_id: runner

@@ -1,0 +1,14 @@
+digest: a434dbd3
+name: dataset
+profile: '{"num_rows": 800, "num_elements": 8000}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "Processor_Speed", "required":
+  true}, {"type": "double", "name": "RAM_Size", "required": true}, {"type": "double",
+  "name": "Storage_Capacity", "required": true}, {"type": "double", "name": "Screen_Size",
+  "required": true}, {"type": "double", "name": "Weight", "required": true}, {"type":
+  "double", "name": "Brand_Acer", "required": true}, {"type": "double", "name": "Brand_Asus",
+  "required": true}, {"type": "double", "name": "Brand_Dell", "required": true}, {"type":
+  "double", "name": "Brand_HP", "required": true}, {"type": "double", "name": "Brand_Lenovo",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "runner", "mlflow.source.name": "modelling.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "dff161bb395291fad3485a97bc6d2f74e4e0c437"}}'
+source_type: code
