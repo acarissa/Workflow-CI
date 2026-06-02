@@ -9,7 +9,7 @@ on:
       - main
 
 env:
-  CSV_URL: "MLproject/laptop_price_preprocessing"
+  CSV_URL: "MLProject/laptop_price_preprocessing"
 
 jobs:
   build:
@@ -34,7 +34,7 @@ jobs:
 
       - name: Run mlflow project
         run: |
-          mlflow run MLproject --env-manager=local
+          mlflow run MLProject --env-manager=local
 
       - name: Upload to Github
         env:
