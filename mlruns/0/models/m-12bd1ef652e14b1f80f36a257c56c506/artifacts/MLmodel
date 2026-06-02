@@ -1,0 +1,41 @@
+artifact_path: /home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/models/m-12bd1ef652e14b1f80f36a257c56c506/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.13.0
+model_id: m-12bd1ef652e14b1f80f36a257c56c506
+model_size_bytes: 11365926
+model_uuid: m-12bd1ef652e14b1f80f36a257c56c506
+prompts: null
+run_id: 201c442c745a4afcb37a08c2344379b3
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Processor_Speed", "required": true}, {"type":
+    "double", "name": "RAM_Size", "required": true}, {"type": "double", "name": "Storage_Capacity",
+    "required": true}, {"type": "double", "name": "Screen_Size", "required": true},
+    {"type": "double", "name": "Weight", "required": true}, {"type": "double", "name":
+    "Brand_Acer", "required": true}, {"type": "double", "name": "Brand_Asus", "required":
+    true}, {"type": "double", "name": "Brand_Dell", "required": true}, {"type": "double",
+    "name": "Brand_HP", "required": true}, {"type": "double", "name": "Brand_Lenovo",
+    "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-02 03:38:37.162378'
